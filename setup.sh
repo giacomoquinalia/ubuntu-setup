@@ -51,7 +51,6 @@ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_
 sudo apt install -y pgadmin4
 
 
-
 # Node js (14.x)
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
@@ -75,6 +74,9 @@ sudo apt-get install insomnia
 
 # Postman
 sudo snap install postman
+
+# Virtual box
+sudo apt install virtualbox
 
 # Filezilla
 sudo apt-get -y install filezilla
